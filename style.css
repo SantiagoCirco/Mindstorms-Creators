@@ -1,0 +1,227 @@
+/*
+    Estilo general de la página
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+
+    /* Tipo de letra de toda la página */
+    font-family: 'Quicksand', sans-serif;
+
+    letter-spacing: 2px;
+
+    background-image: url('lego3.png');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* Tamaño del texto */
+    font-size: 14px;
+
+    /* Color de fondo */
+    background-color: #eeeeee;
+
+}
+
+
+
+/*
+    Caja principal donde está todo el contenido
+*/
+#wholePage {
+
+    /* Ancho de la página */
+    width: 1000px;
+
+    /* Centra la caja */
+    margin: auto;
+
+    /* Agrega un borde */
+    border: 3px solid black;
+
+    /* Fondo blanco */
+    background-color: white;
+
+    /* Espacio interno */
+    padding: 20px;
+
+}
+
+
+
+/*
+    Logo de Lego
+*/
+#logo {
+
+    /* Centra el contenido */
+    text-align: center;
+
+}
+
+
+#logo img {
+
+    /* Cambia el tamaño de la imagen */
+    width: 290px;
+
+}
+
+
+
+/*
+    Menú de navegación
+*/
+#navigation {
+
+    /* Centra el menú */
+    text-align: center;
+
+    /* Agrega líneas arriba y abajo */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+    /* Espacio alrededor del menú */
+    padding: 10px;
+
+}
+
+
+
+/*
+    Hace que los elementos de la lista
+    aparezcan uno al lado del otro
+*/
+#navigation li {
+
+    display: inline;
+
+}
+
+
+
+/*
+    Diseño de los enlaces
+*/
+#navigation a {
+
+    /* Color del texto */
+    color: black;
+
+    /* Quita el subrayado */
+    text-decoration: none;
+
+    /* Espacio entre botones */
+    margin: 10px;
+
+}
+
+
+
+/*
+    Cuando pasamos el mouse encima
+*/
+#navigation a:hover {
+
+    /* Cambia el color */
+    color: red;
+
+}
+
+
+
+/*
+    Banner principal
+*/
+#banner {
+
+    /* Centra el texto */
+    text-align: center;
+
+    /* Ancho del banner */
+    width: 700px;
+
+    /* Centra la sección */
+    margin: auto;
+
+}
+
+
+
+#banner img {
+
+    /* Tamaño de la imagen */
+    width: 600px;
+
+    /* Bordes redondeados */
+    border-radius: 10px;
+
+}
+
+
+
+/*
+    Texto del banner
+*/
+#banner p {
+
+    /* Separación entre líneas */
+    line-height: 25px;
+
+}
+
+
+
+/* ................................................ */
+/* Página CONTACTO */
+/* ................................................ */
+
+form{
+    margin-top: 20px;
+    width: 400px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input{
+    width:300px;
+    height:30px;
+}
+
+textarea{
+    width: 330px;
+}
+
+form label{
+    font-size: 18px;
+}
+
+fieldset{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+legend{
+    font-size: 30px;
+}
+
+.button{
+    width:150px;
+    height: 50px;
+    background-color: #fa4a0a;
+    color: white;
+    padding:15px 32px;
+    font-size:16px;
+    border-radius:4px;
+    transition-duration:0.4s;
+    border: 2px solid #fa4a0a;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}

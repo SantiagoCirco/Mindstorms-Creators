@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="lego4.png" >
+    
+    <title>Contacto</title>                                    <!-- Titulo de nuestro sitio -->
+
+    
+    <link rel="stylesheet" href="style.css">                    <!-- Estilos CSS de nuestro sitio -->
+</head>
+
+<body>
+
+
+    <div id="wholePage">
+
+        <div id="logo">                                           <!-- Logo -->
+            <img src="lego1.png" alt="lego logo">
+        </div>
+
+        
+        <div id="navigation">                                     <!-- Barra de navegación -->
+            <ul>
+                <li><a href="/index.html">Página principal</a></li>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="#">Nuestros Proyectos</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+
+        <div id="contacto">
+            <form>                                                <!-- Formulario de contacto -->
+                <fieldset>
+                    <legend>
+                        Contacto
+                    </legend>
+                    
+                    <label for="nombre">Nombre</label>                      <!-- Nombre -->
+                    <input type="text" id="nombre" maxlength="10"> 
+                    <br><br>  
+
+                    <label for="apellido">Apellido</label>                  <!-- Apellido -->
+                    <input type="text" id="apellido" maxlength="30"> 
+                    <br><br>  
+
+                    <label for="email">E-mail*</label>                      <!-- E-mail -->
+                    <input type="email" id="email" required> 
+                    <br><br>  
+
+                    <label for="tel">Telefono*</label>                      <!-- Telefono -->
+                    <input type="tel" id="tel" required placeholder="XXX-XXX-XXX" maxlength="11" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"> 
+                    <br><br>  
+
+                    <label for="notas">Su Pregunta:*</label>
+                    <textarea id="notas" rows="10" cols="40" required></textarea>
+                    <br><br>
+
+                </fieldset>
+
+                <input type="submit" class="button" value="Enviar">
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
